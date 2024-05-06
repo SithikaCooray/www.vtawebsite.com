@@ -1,0 +1,35 @@
+/*body {
+    padding-top: 70px; /* Space for fixed navbar */
+}*/
+.card-img-top {
+    width: 100%;
+    height: 15vw; /* Responsive image height based on viewport width */
+    object-fit: cover; /* Ensures the images cover the card area without stretching */
+}
+.card {
+    transition: transform .2s; /* Animation for hover effect */
+}
+.card:hover {
+    transform: scale(1.05); /* Scales up card on hover */
+}
+.container h1 {
+    color: #333; /* Dark color for better visibility */
+    font-weight: 700; /* Bold font for the title */
+}
+.container p {
+    font-size: 1.2rem; /* Slightly larger text for easy reading */
+    line-height: 1.6; /* More space between lines */
+    color: #666; /* Lighter text color for a modern look */
+}
+.container form {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+.form-group label {
+    font-weight: bold;
+}
+.btn-primary {
+    background-color: #0056b3; /* Custom primary color */
+    border: none;
+}
